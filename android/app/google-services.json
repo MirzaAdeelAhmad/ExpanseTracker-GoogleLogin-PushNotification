@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "513123302968",
+    "project_id": "expansetracker-4d53f",
+    "storage_bucket": "expansetracker-4d53f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513123302968:android:e9b2d326fbf6d5103870cd",
+        "android_client_info": {
+          "package_name": "com.expansetrackerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513123302968-7euo1lp12k211k2tkkt6iisflb4jhulr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW5Yc-X61Ot9VEpN-texavM1ZRfM_7RLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513123302968-7euo1lp12k211k2tkkt6iisflb4jhulr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "513123302968-hhku3fka07k6ssstjf4kdgar0dqk36hv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.expanseTrackerApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

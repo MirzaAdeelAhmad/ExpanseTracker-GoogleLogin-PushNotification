@@ -1,0 +1,177 @@
+import {StyleSheet} from 'react-native';
+
+export const HomeStyle = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    backgroundColor: 'white',
+  },
+  TitleText: {
+    fontSize: 25,
+    color: 'black',
+    fontWeight: '600',
+    alignSelf: 'center',
+    marginTop: 20,
+  },
+  yourBalanceText: {
+    alignSelf: 'center',
+    marginTop: 30,
+    fontSize: 17,
+    fontWeight: '500',
+    color: 'black',
+  },
+  yourBalance: {
+    alignSelf: 'center',
+    // marginTop: 10,
+    fontSize: 35,
+    fontWeight: '600',
+  },
+  incomeAndExpenseView: {
+    flexDirection: 'row',
+    width: '90%',
+    alignSelf: 'center',
+    marginTop: 20,
+  },
+  boxShadow: {
+    shadowColor: 'black',
+    shadowOffset: {
+      width: 5,
+      height: 2,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 5,
+  },
+  incomeView: {
+    width: '50%',
+    height: 100,
+    backgroundColor: 'white',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRightWidth: 1,
+    borderColor: '#d2d2d2',
+  },
+  incomeText: {
+    fontSize: 16,
+    color: 'black',
+    fontWeight: '500',
+  },
+  incomeBalanceText: {
+    color: '#32aa32',
+    marginTop: 5,
+    fontSize: 16,
+  },
+  ExpenseView: {
+    width: '50%',
+    height: 100,
+    backgroundColor: 'white',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  expenseText: {
+    fontSize: 16,
+    color: 'black',
+    fontWeight: '500',
+  },
+  expenseBalanceText: {
+    color: '#ed2525',
+    marginTop: 5,
+    fontSize: 16,
+  },
+  historyText: {
+    alignSelf: 'center',
+    marginTop: 20,
+    fontSize: 21,
+    fontWeight: '500',
+    borderBottomWidth: 1,
+    paddingVertical: 7,
+  },
+  historyTextView: {
+    width: '90%',
+    alignSelf: 'center',
+    borderBottomWidth: 0.3,
+    borderColor: 'gray',
+    marginTop: 0,
+    // backgroundColor: 'red',
+    marginBottom: 5,
+  },
+  inputView: {
+    width: '90%',
+    alignSelf: 'center',
+    marginTop: 20,
+  },
+  inputText: {
+    fontSize: 17,
+    marginBottom: 10,
+  },
+  input: {
+    backgroundColor: 'white',
+    height: 50,
+    paddingHorizontal: 20,
+    fontSize: 17,
+  },
+  inputShadow: {
+    shadowColor: 'gray',
+    shadowOffset: {
+      width: 2,
+      height: 2,
+    },
+    shadowOpacity: 0.3,
+    shadowRadius: 6,
+  },
+
+  buttonView: {
+    backgroundColor: '#0088ff',
+    width: '90%',
+    height: 50,
+    alignSelf: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 50,
+  },
+  buttonText: {
+    color: 'white',
+    fontWeight: '500',
+    fontSize: 17,
+  },
+  transactionList: {
+    width: '90%',
+    alignSelf: 'center',
+    backgroundColor: 'white',
+    height: 50,
+    marginBottom: 10,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    borderWidth: 0.2,
+    borderColor: '#999999',
+    borderRadius: 5,
+  },
+  listNameText: {
+    fontSize: 15,
+  },
+  checkboxMainTopContainer: {
+    flexDirection: 'row',
+    marginTop: 20,
+  },
+  checkBoxMainContainer: {
+    flexDirection: 'row',
+    marginRight: 20,
+    marginLeft: 20,
+  },
+
+  checkBoxUpparView: {
+    width: 20,
+    height: 20,
+    borderRadius: 100,
+    backgroundColor: '#e4e4e4',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 7,
+  },
+  checkBoxInnerView: {
+    width: 10,
+    height: 10,
+    borderRadius: 100,
+    backgroundColor: '#787777',
+  },
+});
